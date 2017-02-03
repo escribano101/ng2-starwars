@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let planet of planets">
+    <app-list-item
+      [planet]="planet"
+      (onPlanetSelected)="goToPlanetDetail($event)">
+    </app-list-item>>
+  </li>
+</ul>
